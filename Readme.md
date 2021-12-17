@@ -1,6 +1,6 @@
-# Gophercon 2021 - Best Room Price Scraper from Booking.com
+# Best Room Price Scraper from Booking.com
 
-That finds the cheapest room in the given booking url
+This repo is a tutorial of Large Scale Crawling and Scraping Best Practices in Gophercon 2021. That finds the cheapest room in the given booking url.
 
 ## Usage
 
