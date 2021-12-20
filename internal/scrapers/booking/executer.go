@@ -40,12 +40,12 @@ func (s *BookingScraperExecutor) ExtractRooms() ([]*core.Room, error) {
 			// Review
 			room.Review = tableCol.ChildText("div._9c5f726ff.bd528f9ea6")
 
+			// Set the criteria
+			if room.HotelName != "" || room.Price != "" {
+				records = append(records, room)
+			}
 		})
 
-		// Set the criteria
-		if room.HotelName != "" || room.Price != "" {
-			records = append(records, room)
-		}
 	})
 
 	c.OnRequest(func(r *colly.Request) {

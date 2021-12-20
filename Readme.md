@@ -19,3 +19,6 @@ To run all tests
 ``` 
 go test -race $(go list ./...) 
 ```
+
+## Codefactor
+[![CodeFactor](https://www.codefactor.io/repository/github/kevsersrca/bookingroomscraper/badge)](https://www.codefactor.io/repository/github/kevsersrca/bookingroomscraper)
